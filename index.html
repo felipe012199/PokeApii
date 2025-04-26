@@ -34,7 +34,6 @@
     <script src="JS/detalle.js"></script>
     <script src="JS/sw.js"></script>
     
-
     <script>
         document.addEventListener("DOMContentLoaded", General);
 
@@ -73,15 +72,9 @@
 
         if (esIOS()) {
             const mensaje = document.createElement("div");
-            mensaje.innerHTML = `
-    <p>En iOS, toca <span style="font-weight:bold;">Compartir</span> y luego "Agregar a pantalla de inicio" para instalar.</p>
-  `;
+            mensaje.innerHTML = `En iOS, toca <span style="font-weight:bold;">Compartir</span> y luego "Agregar a pantalla de inicio" para instalar.`;
             document.getElementById("btn-instalar").replaceWith(mensaje);
         }
-        navigator.serviceWorker.register('sw.js') // ✅ sin la carpeta JS
-    .then(() => console.log('Service Worker registrado ✅'))
-    .catch(error => console.log('Error al registrar SW:', error));
-
     </script>
 </body>
 
