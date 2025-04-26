@@ -7,14 +7,14 @@
 
 body {
     font-family: 'Segoe UI', sans-serif;
-    background-color: #f7f9fc;
-    color: #1e272e;
+    background-color: #e8f6f3;
+    color: #2f3640;
     padding-bottom: 80px;
 }
 
 /* Botones */
 button {
-    background-color: #4ECDC4;
+    background-color: #ff7979;
     border: none;
     cursor: pointer;
     margin: 10px auto;
@@ -24,18 +24,18 @@ button {
     color: white;
     font-size: 1.1rem;
     font-weight: bold;
-    box-shadow: 0 6px 12px rgba(78, 205, 196, 0.3);
+    box-shadow: 0 6px 12px rgba(255, 121, 121, 0.3);
     display: block;
 }
 
 button:hover {
-    background-color: #48C9B0;
+    background-color: #ff4d4d;
     transform: scale(1.05);
 }
 
 button:active {
     transform: scale(0.95);
-    box-shadow: 0 2px 6px rgba(78, 205, 196, 0.3);
+    box-shadow: 0 2px 6px rgba(255, 121, 121, 0.3);
 }
 
 /* Lista */
@@ -74,7 +74,7 @@ button:active {
 
 .c-lista-pokemon h3 {
     font-size: 1.2rem;
-    color: #2d3436;
+    color: #2f3640;
     font-weight: bold;
 }
 
@@ -91,7 +91,7 @@ button:active {
     position: fixed;
     bottom: 0;
     left: 0;
-    background: #1e272e;
+    background: #2f3640;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -102,7 +102,7 @@ button:active {
 
 .c-nav-item {
     width: 20%;
-    background-color: #4ECDC4;
+    background-color: #ff7979;
     color: white;
     text-align: center;
     padding: 14px;
@@ -110,11 +110,11 @@ button:active {
     font-weight: bold;
     transition: background-color 0.3s ease, transform 0.3s ease;
     font-size: 1.1rem;
-    box-shadow: 0 4px 8px rgba(78, 205, 196, 0.2);
+    box-shadow: 0 4px 8px rgba(255, 121, 121, 0.2);
 }
 
 .c-nav-item:hover {
-    background-color: #48C9B0;
+    background-color: #ff4d4d;
     transform: scale(1.1);
 }
 
@@ -124,7 +124,7 @@ button:active {
 
 /* Mios */
 .c-unpoke {
-    background-color: #FF6B6B;
+    background-color: #f39c12;
     width: calc(25% - 10px);
     height: 100px;
     padding: 15px;
@@ -135,7 +135,7 @@ button:active {
     align-items: center;
     flex-direction: column;
     border-radius: 18px;
-    box-shadow: 0 6px 12px rgba(255, 107, 107, 0.4);
+    box-shadow: 0 6px 12px rgba(243, 156, 18, 0.4);
     transition: transform 0.3s ease;
 }
 
@@ -144,8 +144,8 @@ button:active {
 }
 
 .c-mios-pokemon {
-    background-color: #FF9FF3;
-    color: #1e272e;
+    background-color: #f9ca24;
+    color: #2f3640;
     border-radius: 18px;
     padding: 15px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
@@ -153,7 +153,7 @@ button:active {
 }
 
 .c-mios-pokemon:hover {
-    background-color: #FF80AB;
+    background-color: #f7b731;
     transform: scale(1.05);
 }
 
@@ -170,7 +170,7 @@ button:active {
     font-weight: bold;
     text-align: center;
     margin-top: 25px;
-    background-color: #4ECDC4;
+    background-color: #ff7979;
     color: white;
     padding: 12px;
     border-radius: 18px;
@@ -188,7 +188,7 @@ button:active {
 .filtro button {
     padding: 12px 22px;
     font-size: 1.1rem;
-    background-color: #4ECDC4;
+    background-color: #ff7979;
     color: white;
     border: none;
     border-radius: 8px;
@@ -197,7 +197,7 @@ button:active {
 }
 
 .filtro button:hover {
-    background-color: #48C9B0;
+    background-color: #ff4d4d;
     transform: scale(1.05);
 }
 
@@ -208,7 +208,7 @@ button:active {
     padding: 14px;
     margin: 20px auto;
     border-radius: 18px;
-    border: 2px solid #4ECDC4;
+    border: 2px solid #ff7979;
     font-size: 1.2rem;
     text-align: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
